@@ -1,0 +1,116 @@
+.project-details {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  align-items: start;
+  grid-gap: 60px;
+}
+
+.project-summary {
+  background-color: var(--bg-card);
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+.project-summary .project-title {
+  color: var(--heading-color);
+  padding-bottom: .3em;
+  opacity: var(--text-opacity);
+}
+
+.project-summary .created-by {
+  font-size: .8rem;
+}
+
+.project-summary .due-date {
+  font-size: 0.8rem;
+  margin-bottom: .5em;
+}
+
+.project-summary .details {
+  padding-top: .8em;
+  line-height: 1.8em;
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--heading-color);
+  opacity: var(--text-opacity);
+}
+
+.project-summary h4 {
+  font-size: 0.8em;
+  padding-bottom: .6em;
+}
+
+.project-summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 225px;
+}
+
+.project-summary .assigned-users {
+  display: flex;
+}
+
+.project-summary .assigned-users .avatar {
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.project-summary+.btn {
+  margin-top: 20px;
+}
+
+.project-comments {
+  border: 1px solid var(--border-color);
+  padding: 20px 20px;
+  border-radius: 4px;
+  background-color: var(--bg-card);
+  font-size: .9rem;
+}
+
+.project-comments h4 {
+  color: var(--heading-color);
+  opacity: var(--text-opacity);
+}
+
+.project-comments li {
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  margin-top: 20px;
+  background-color: var(--bg-card);
+}
+
+.project-comments .add-comment label textarea {
+  background-color: #000;
+}
+
+.project-comments .add-comment label span {
+  font-size: .9rem;
+}
+
+.comment-author {
+  display: flex;
+  align-items: center;
+  color: var(--title-color);
+}
+
+.comment-author .avatar {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.comment-date {
+  color: var(--text-color);
+  font-size: 0.8em;
+  margin: 4px 0 10px;
+}
+
+.comment-content {
+  color: var(--heading-color);
+  font-size: 0.9em;
+  opacity: var(--text-opacity)
+}

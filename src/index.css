@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* variables */
+:root {
+  --heading-color: #FFF;
+  --text-color: rgb(169, 169, 169, 1);
+  --primary-color: #FFF;
+  --bg-color: #000;
+  --bg-card: #0c0b10;
+  --border-color: rgb(169, 169, 169, .4);
+  --text-opacity: 90%;
+}
+
+/* base styles */
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* layout */
+.page-title {
+  font-size: 1.3rem;
+  color: var(--heading-color);
+  display: inline-block;
+}
+
+.btn {
+  color: #000;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  padding: .7em .8em;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 90%;
+}
+
+/* forms */
+label {
+  display: block;
+  margin: 16px auto;
+}
+
+label span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  opacity: var(--text-opacity);
+}
+
+input,
+textarea {
+  padding: 8px 6px;
+  font-size: .9rem;
+  font-family: Inter, sans-serif;
+  color: var(--primary-color);
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-card);
+  color-scheme: dark;
+  opacity: var(--text-opacity);
+}
+
+textarea {
+  min-height: 160px;
+}
+
+input:focus,
+textarea:focus {
+  outline: thin;
+  border-color: #FFF;
+}
+
+.error {
+  color: var(--bg-card);
+  background: #FFF;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 8px;
+  margin: 10px 0;
+  font-size: .9rem;
+  text-align: center;
+}

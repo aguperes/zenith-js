@@ -1,0 +1,49 @@
+.project-list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  padding-bottom: 1em;
+}
+
+.project-list a {
+  background-color: var(--bg-card);
+  padding: 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-list a:hover {
+  border: 1px solid var(--border-color);
+}
+
+.project-list h4 {
+  font-size: .9rem;
+  color: var(--heading-color);
+  padding-bottom: 1em;
+}
+
+.project-list p {
+  font-size: .9rem;
+}
+
+.project-list .assigned-to {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-color)
+}
+
+.project-list ul {
+  margin: 10px 0;
+  display: flex;
+}
+
+.project-list li {
+  margin-right: 10px;
+}
+
+.project-list .avatar {
+  width: 30px;
+  height: 30px;
+}

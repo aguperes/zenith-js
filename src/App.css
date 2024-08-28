@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+}
+
+.App .container {
+  flex-grow: 1;
+  padding-left: 60px;
+  padding: 0 20px 0px 20px;
+}

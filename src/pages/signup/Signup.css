@@ -1,0 +1,9 @@
+.auth-form {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  color: var(--heading-color);
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 5px;
+}
